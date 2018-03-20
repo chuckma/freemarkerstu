@@ -10,7 +10,7 @@ spring:
      freemarker:
             allowRequestOverride: false
             allowSessionOverride: false
-            cache: true
+            cache: false
             checkTemplateLocation: true
             contentType: text/html
             exposeRequestAttributes: false

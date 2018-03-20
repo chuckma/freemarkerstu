@@ -11,7 +11,11 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public ModelAndView index(){
         ModelAndView mv=new ModelAndView("index");//模板文件的名称，不需要指定后缀
-        mv.addObject("key","hello freemaker");
+//        mv.addObject("key","hello freemaker");
+        mv.addObject("intVar", 101211);
         return mv;
     }
+
+
+
 }

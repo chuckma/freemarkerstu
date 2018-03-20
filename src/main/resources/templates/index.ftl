@@ -5,6 +5,6 @@
     <title>freemarker test</title>
 </head>
 <body>
-    ${key}
+    ${intVar}
 </body>
 </html>
